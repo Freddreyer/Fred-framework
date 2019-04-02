@@ -1,0 +1,221 @@
+/*----------------------------------------------------------------------------------------------*/
+/* BUTTONS */
+/*----------------------------------------------------------------------------------------------*/
+
+.btn {
+  background: #fff;
+  color: #4c57d3;
+  border: 1px solid #4c57d3;
+}
+
+.btn:hover {
+  background: #c1c4c8;
+  cursor: pointer;
+}
+
+.btn:active {
+  background: #4c57d3;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+}
+
+/* Variant
+   ========================================================================== */
+
+.btn.btn-primary {
+  background: #4c57d3;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background: rgb(31, 50, 136);
+  cursor: pointer;
+}
+
+.btn.btn-primary.btn.btn-link {
+  border: none;
+}
+
+.btn.btn-link:hover {
+  background: none;
+  cursor: pointer;
+}
+
+/* Colors
+   ========================================================================== */
+
+.btn.btn-success {
+  background: rgb(60, 185, 49);
+  color: #fff;
+  border: none;
+}
+
+.btn.btn-error {
+  background: rgb(223, 10, 10);
+  color: #fff;
+  border: none;
+}
+
+/* Sizes
+   ========================================================================== */
+
+.btn.btn-lg {
+  width: 200px;
+  height: 50px;
+}
+
+.btn.btn-sm {
+  width: 100px;
+  height: 25px;
+}
+
+/* Loading
+   ========================================================================== */
+
+.btn.loading .loader {
+  border: 3px solid #4c57d3;
+  /* Light grey */
+  border-top: 3px solid #fff;
+  /* Blue */
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+  line-height: 1;
+}
+
+.btn.btn-primary.loading .loader {
+  border: 3px solid #fff;
+  /* Light grey */
+  border-top: 3px solid #4c57d3;
+  /* Blue */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+/* Group
+   ========================================================================== */
+
+.btn-group {
+  display: flex;
+}
+
+/* only the buttons which have a button before */
+.btn-group .btn+.btn {
+  border-left: 0;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* GRID */
+/*----------------------------------------------------------------------------------------------*/
+
+.columns {
+  display: flex;
+  align-items: center;
+
+}
+
+.column.col-12 {
+  width: 100%;
+
+}
+
+.column.col-11 {
+  width: calc((11 / 12) * 100%);
+
+}
+
+.column.col-10 {
+  width: calc((10 / 12) * 100%);
+
+}
+
+.column.col-9 {
+  width: calc((9 / 12) * 100%);
+
+}
+
+.column.col-8 {
+  width: calc((8 / 12) * 100%);
+
+}
+
+.column.col-7 {
+  width: calc((7 / 12) * 100%);
+
+}
+
+.column.col-6 {
+  width: calc((6 / 12) * 100%);
+
+}
+
+.column.col-5 {
+  width: calc((5 / 12) * 100%);
+
+}
+
+.column.col-4 {
+  width: calc((4 / 12) * 100%);
+
+}
+
+.column.col-3 {
+  width: 25%;
+
+}
+
+.column.col-2 {
+  width: calc((2 / 12) * 100%);
+
+}
+
+.column.col-1 {
+  width: calc((1 / 12) * 100%);
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* UTILITIES */
+/*----------------------------------------------------------------------------------------------*/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* FORMS */
+/*----------------------------------------------------------------------------------------------*/
+
+.form-group {
+  margin: 10px 0px;
+}
+
+.form-input {
+  margin: 10px 0px;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input:focus {
+  border: 1px solid lightblue;
+  outline: none;
+}
