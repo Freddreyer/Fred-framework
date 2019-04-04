@@ -217,6 +217,7 @@ body {
 
 .form-input {
   margin: 10px 0px;
+  border: 1px solid lightblue;
 }
 
 .form-label {
@@ -226,10 +227,12 @@ body {
 .form-input:focus {
   border: 1px solid lightblue;
   outline: none;
+  box-shadow: 0 0 5px lightblue;
 }
 
 .form-select:focus {
   border: 1px solid lightblue;
+  box-shadow: 0 0 5px lightblue;
   outline: none;
 }
 
