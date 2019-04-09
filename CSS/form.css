@@ -109,3 +109,33 @@
     display: inline-block;
     padding: 0 20px 0 0;
 }
+
+/*ICONS*/
+
+.has-icon-left {
+    position: relative;
+    display: block;
+}
+
+.has-icon-left input {
+    padding-left: 20px;
+}
+
+.icon-file-check {
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*FORM SUCCESS*/
+
+.form-input .is-success {
+    border: 1px solid rgb(42, 224, 42);
+}
+
+.form-input-hint {
+    color: rgb(42, 224, 42);
+}
