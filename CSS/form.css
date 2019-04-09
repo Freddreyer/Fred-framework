@@ -1,0 +1,111 @@
+/*----------------------------------------------------------------------------------------------*/
+/* FORMS */
+/*----------------------------------------------------------------------------------------------*/
+
+.form-group {
+    margin: 5px 0px;
+}
+
+.form-input {
+    margin: 5px 0px;
+    border: 1px solid #B5D7E4;
+}
+
+.form-label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+.form-input:focus {
+    border: 1px solid #B5D7E4;
+    outline: none;
+    box-shadow: 0 0 5px #B5D7E4;
+}
+
+.form-select:focus {
+    border: 1px solid #B5D7E4;
+    box-shadow: 0 0 5px #B5D7E4;
+    outline: none;
+}
+
+.form-select {
+    border-radius: 0%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 3px 15px;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23667189'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right .35rem center;
+    background-size: .4rem .5rem;
+
+}
+
+.form-group .form-radio {
+    margin-top: 15px;
+    display: block;
+}
+
+.form-radio input {
+    margin-right: 5px;
+}
+
+/*SWITCH*/
+
+.switch-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-switch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.form-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.form-switch .form-icon {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(167, 167, 167);
+    transition: all linear .3s;
+    border-radius: 25px;
+}
+
+.form-switch span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+    display: block;
+    border: 1px solid #cbcbcc;
+    transition: all linear .1s;
+
+}
+
+.form-switch input[type="checkbox"]:checked+.form-icon span {
+    margin-left: 20px;
+}
+
+.form-switch input:checked+.form-icon {
+    background-color: rgb(8, 240, 124);
+}
+
+/*Form inline*/
+
+.form-group .form-inline {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
