@@ -14,134 +14,157 @@
 </head>
 
 <body style="padding: 30px">
-  <h2>Buttons</h2>
-  <button class="btn">
-    default button
-    <div class="loader"></div>
-  </button>
-  <button class="btn btn-primary">primary button</button>
-  <button class="btn btn-link">link button</button>
-  <button class="btn btn-success">success button</button>
-  <button class="btn btn-error">error button</button>
-  <button class="btn btn-lg">large button</button>
-  <button class="btn btn-sm">small button</button>
-  <button class="btn" disabled>disabled button</button>
-  <button class="btn loading">button</button>
-  <button class="btn btn-primary loading">
-    primary button
-    <div class="loader"></div>
-  </button>
-
-  <h3>Buttons group</h3>
-  <div class="btn-group btn-group-block">
-    <button class="btn">first button</button>
-    <button class="btn">second button</button>
-    <button class="btn">third button</button>
-  </div>
-  <br />
-  <div class="btn-group btn-group-block">
-    <button class="btn">first button</button>
-    <button class="btn">second button</button>
-    <button class="btn">third button</button>
-    <button class="btn">third button</button>
-  </div>
-
-  <h2>Columns</h2>
   <div class="container">
-    <div class="columns">
-      <div class="column col-6">col-6</div>
-      <div class="column col-3">col-3</div>
-      <div class="column col-2">col-2</div>
-      <div class="column col-1">col-1</div>
+    <h1>
+      <img src="img/logo.png" alt="" width="60">
+      Fred Framework
+    </h1>
+    <h2>Buttons</h2>
+    <button class="btn">
+      default button
+      <div class="loader"></div>
+    </button>
+    <button class="btn btn-primary">primary button</button>
+    <button class="btn btn-link">link button</button>
+    <button class="btn btn-success">success button</button>
+    <button class="btn btn-error">error button</button>
+    <button class="btn btn-lg">large button</button>
+    <button class="btn btn-sm">small button</button>
+    <button class="btn" disabled>disabled button</button>
+    <button class="btn loading">button</button>
+    <button class="btn btn-primary loading">
+      primary button
+      <div class="loader"></div>
+    </button>
+
+    <h3>Buttons group</h3>
+    <div class="btn-group btn-group-block">
+      <button class="btn">first button</button>
+      <button class="btn">second button</button>
+      <button class="btn">third button</button>
     </div>
-    <div class="columns">
-      <div class="column col-12">col-12</div>
+    <br />
+    <div class="btn-group btn-group-block">
+      <button class="btn">first button</button>
+      <button class="btn">second button</button>
+      <button class="btn">third button</button>
+      <button class="btn">third button</button>
     </div>
-    <div class="columns">
-      <div class="column col-11">col-11</div>
-      <div class="column col-1">col-1</div>
+
+    <h2>Columns</h2>
+    <div class="container">
+      <div class="columns">
+        <div class="column col-6">col-6</div>
+        <div class="column col-3">col-3</div>
+        <div class="column col-2">col-2</div>
+        <div class="column col-1">col-1</div>
+      </div>
+      <div class="columns">
+        <div class="column col-12">col-12</div>
+      </div>
+      <div class="columns">
+        <div class="column col-11">col-11</div>
+        <div class="column col-1">col-1</div>
+      </div>
+      <div class="columns">
+        <div class="column col-10">col-10</div>
+        <div class="column col-2">col-2</div>
+      </div>
+      <div class="columns">
+        <div class="column col-9">col-9</div>
+        <div class="column col-3">col-3</div>
+      </div>
+      <div class="columns">
+        <div class="column col-8">col-8</div>
+        <div class="column col-4">col-4</div>
+      </div>
+      <div class="columns">
+        <div class="column col-7">col-7</div>
+        <div class="column col-5">col-5</div>
+      </div>
+      <div class="columns">
+        <div class="column col-6">col-6</div>
+        <div class="column col-6">col-6</div>
+      </div>
     </div>
-    <div class="columns">
-      <div class="column col-10">col-10</div>
-      <div class="column col-2">col-2</div>
+    <h2>Forms</h2>
+    <h3>Forms input</h3>
+    <div class="form-group">
+      <label class="form-label" for="input-example-1">Name</label>
+      <input class="form-input" type="text" id="input-example-1" placeholder="Name">
     </div>
-    <div class="columns">
-      <div class="column col-9">col-9</div>
-      <div class="column col-3">col-3</div>
+    <div class="form-group">
+      <label class="form-label" for="input-example-1">Email</label>
+      <input class="form-input" type="text" id="input-example-1" placeholder="Name">
     </div>
-    <div class="columns">
-      <div class="column col-8">col-8</div>
-      <div class="column col-4">col-4</div>
+    <h3>Form textarea</h3>
+    <div class="form-group">
+      <label class="form-label" for="input-example-3">Message</label>
+      <textarea class="form-input" id="input-example-3" placeholder="Textarea" rows="3"></textarea>
     </div>
-    <div class="columns">
-      <div class="column col-7">col-7</div>
-      <div class="column col-5">col-5</div>
+    <h3>Form select</h3>
+    <div class="form-group">
+      <select class="form-select">
+        <option>Choose an option</option>
+        <option>Slack</option>
+        <option>Skype</option>
+        <option>Hipchat</option>
+      </select>
     </div>
-    <div class="columns">
-      <div class="column col-6">col-6</div>
-      <div class="column col-6">col-6</div>
+    <h3>Form radio</h3>
+    <div class="form-group">
+      <label class="form-label">Gender</label>
+      <label class="form-radio">
+        <input type="radio" name="gender" checked>
+        <i class="form-icon"></i> Male
+      </label>
+      <label class="form-radio">
+        <input type="radio" name="gender">
+        <i class="form-icon"></i> Female
+      </label>
     </div>
-  </div>
-  <h2>Forms</h2>
-  <h3>Forms input</h3>
-  <div class="form-group">
-    <label class="form-label" for="input-example-1">Name</label>
-    <input class="form-input" type="text" id="input-example-1" placeholder="Name">
-  </div>
-  <div class="form-group">
-    <label class="form-label" for="input-example-1">Email</label>
-    <input class="form-input" type="text" id="input-example-1" placeholder="Name">
-  </div>
-  <h3>Form textarea</h3>
-  <div class="form-group">
-    <label class="form-label" for="input-example-3">Message</label>
-    <textarea class="form-input" id="input-example-3" placeholder="Textarea" rows="3"></textarea>
-  </div>
-  <h3>Form select</h3>
-  <div class="form-group">
-    <select class="form-select">
-      <option>Choose an option</option>
-      <option>Slack</option>
-      <option>Skype</option>
-      <option>Hipchat</option>
-    </select>
-  </div>
-  <h3>Form radio</h3>
-  <div class="form-group">
-    <label class="form-label">Gender</label>
-    <label class="form-radio">
-      <input type="radio" name="gender" checked>
-      <i class="form-icon"></i> Male
+    <h3>Form switch</h3>
+    <label class="switch-container">
+      <div class="form-switch">
+        <input type="checkbox">
+        <i class="form-icon"><span></span></i>
+      </div>
+      <p>Send me emails with news and tips</p>
     </label>
-    <label class="form-radio">
-      <input type="radio" name="gender">
-      <i class="form-icon"></i> Female
-    </label>
-  </div>
-  <h3>Form switch</h3>
-  <label class="switch-container">
-    <div class="form-switch">
-      <input type="checkbox">
-      <i class="form-icon"><span></span></i>
+    <h3>form-inline</h3>
+    <div class="form-group">
+      <label class="form-radio form-inline">
+        <input type="radio" name="gender" checked=""><i class="form-icon"></i> Male
+      </label>
+      <label class="form-radio form-inline">
+        <input type="radio" name="gender"><i class="form-icon"></i> Female
+      </label>
     </div>
     <p>Send me emails with news and tips</p>
-  </label>
-  <h3>form-inline</h3>
-  <div class="form-group">
-    <label class="form-radio form-inline">
-      <input type="radio" name="gender" checked=""><i class="form-icon"></i> Male
     </label>
-    <label class="form-radio form-inline">
-      <input type="radio" name="gender"><i class="form-icon"></i> Female
+    <h3>form-inline</h3>
+    <div class="form-group">
+      <label class="form-radio form-inline">
+        <input type="radio" name="gender" checked=""><i class="form-icon"></i> Male
+      </label>
+      <label class="form-radio form-inline">
+        <input type="radio" name="gender"><i class="form-icon"></i> Female
+      </label>
+    </div>
+    <h3>Form Icons</h3>
+    <label class="has-icon-left">
+      <input type="text" class="form-input" placeholder="Name">
+      <i class="form-icon icon icon-file-check"></i>
     </label>
+    <h3>Icons</h3>
+    <span class="icon-addressbook"></span>
+    <div class="has-icon-left">
+      <input type="text" class="form-input" placeholder="...">
+      <i class="form-icon icon icon-file-check"></i>
+    </div>
+    <h3>Icons</h3>
+    <span class="icon-addressbook"></span>
   </div>
-  <h3>Form Icons</h3>
-  <label class="has-icon-left">
-    <input type="text" class="form-input" placeholder="Name">
-    <i class="form-icon icon icon-file-check"></i>
-  </label>
-  <h3>Icons</h3>
-  <span class="icon-addressbook"></span>
 </body>
 
 </html>
