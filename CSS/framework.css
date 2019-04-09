@@ -86,9 +86,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: rgb(167, 167, 167);
+  transition: all linear .3s;
   border-radius: 25px;
 }
 
@@ -96,14 +95,20 @@
   position: absolute;
   border-radius: 50%;
   background-color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   display: block;
   border: 1px solid #cbcbcc;
+  transition: all linear .1s;
+
 }
 
 .form-switch input[type="checkbox"]:checked+.form-icon span {
   margin-left: 20px;
+}
+
+.form-switch input:checked+.form-icon {
+  background-color: rgb(8, 240, 124);
 }
 
 /*Form inline*/
@@ -111,4 +116,23 @@
 .form-group .form-inline {
   display: inline-block;
   padding: 0 20px 0 0;
+}
+
+/*ICONS*/
+
+.has-icon-left {
+  position: relative;
+  display: block;
+}
+
+.has-icon-left input {
+  padding-left: 20px;
+}
+
+.icon-file-check {
+  position: absolute;
+  top: 8px;
+  left: 3px;
+  bottom: 0;
+  right: 0;
 }
