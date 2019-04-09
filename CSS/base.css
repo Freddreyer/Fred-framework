@@ -6,6 +6,28 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+@keyframes surf {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+body:before {
+  content: '';
+  background-image: url(../img/surf.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  animation: surf 20s;
+}
+
 h1 {
   font-size: 30px;
   text-transform: uppercase;
