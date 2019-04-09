@@ -1,3 +1,4 @@
+@import url("icons.css");
 /*----------------------------------------------------------------------------------------------*/
 /* BASE */
 /*----------------------------------------------------------------------------------------------*/
@@ -212,16 +213,17 @@ body {
 /*----------------------------------------------------------------------------------------------*/
 
 .form-group {
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 .form-input {
-  margin: 10px 0px;
+  margin: 5px 0px;
   border: 1px solid #B5D7E4;
 }
 
 .form-label {
   display: block;
+  margin: 15px 0 0 0;
 }
 
 .form-input:focus {
@@ -248,4 +250,67 @@ body {
   background-position: right .35rem center;
   background-size: .4rem .5rem;
 
+}
+
+.form-group .form-radio {
+  margin-top: 15px;
+  display: block;
+}
+
+.form-radio input {
+  margin-right: 5px;
+}
+
+/*SWITCH*/
+
+.switch-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-switch {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.form-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.form-switch .form-icon {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 25px;
+}
+
+.form-switch span {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 1px solid #cbcbcc;
+}
+
+.form-switch input[type="checkbox"]:checked+.form-icon span {
+  margin-left: 20px;
+}
+
+/*Form inline*/
+
+.form-group .form-inline {
+  display: inline-block;
+  padding: 0 20px 0 0;
 }
