@@ -17,6 +17,11 @@ h1 {
 h1 img {
   border: solid 1px #000;
   vertical-align: top;
+  transition: all linear 10s;
+}
+
+h1:hover img {
+  transform: scale(10);
 }
 
 hr {
