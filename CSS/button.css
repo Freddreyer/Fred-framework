@@ -69,13 +69,13 @@
    ========================================================================== */
 
 .btn.btn-lg {
-  width: 200px;
   height: 50px;
+  font-size: 1.2em;
 }
 
 .btn.btn-sm {
-  width: 100px;
   height: 25px;
+  font-size: 0.8em;
 }
 
 /* Loading
