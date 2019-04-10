@@ -21,11 +21,11 @@ body:before {
   background-image: url(../img/surf.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
-  position: absolute;
-  animation: surf 20s;
+  position: fixed;
+  animation: surf 20s infinite;
 }
 
 h1 {
