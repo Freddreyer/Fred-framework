@@ -6,24 +6,3 @@
 @import url("grid.css");
 @import url("utilities.css");
 @import url("form.css");
-
-
-
-/*ICONS*/
-
-.has-icon-left {
-  position: relative;
-  display: block;
-}
-
-.has-icon-left input {
-  padding-left: 20px;
-}
-
-.icon-file-check {
-  position: absolute;
-  top: 8px;
-  left: 3px;
-  bottom: 0;
-  right: 0;
-}
