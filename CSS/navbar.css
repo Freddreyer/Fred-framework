@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    background-color: rgb(199, 196, 196);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgb(177, 175, 175);
+}
+
+.navbar-section a {
+    line-height: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar-section a:hover {
+    color: #000;
+}
+
+.navbar-center {
+    line-height: 0;
+}

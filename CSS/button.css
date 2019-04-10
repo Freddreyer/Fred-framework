@@ -39,8 +39,10 @@
   cursor: pointer;
 }
 
-.btn.btn-primary.btn.btn-link {
+.btn.btn-link {
   border: none;
+  text-decoration: none;
+  background: transparent;
 }
 
 .btn.btn-link:hover {
