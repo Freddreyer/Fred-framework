@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Changr, take action</title>
+  <title>Fred Framework</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
   <link rel="stylesheet" media="screen" href="CSS/normalize.css" />
   <link rel="stylesheet" media="screen" href="CSS/framework.css" />
   <link rel="stylesheet" media="screen" href="CSS/documentation.css" />
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
 </head>
 
 <body style="padding: 30px 60px">
@@ -42,12 +43,23 @@
     </button>
     <button class="btn btn-primary">primary button</button>
     <button class="btn btn-link">link button</button>
+
+    <h3>Button colors</h3>
     <button class="btn btn-success">success button</button>
     <button class="btn btn-error">error button</button>
+
+    <h3>Button size</h3>
     <button class="btn btn-lg">large button</button>
     <button class="btn btn-sm">small button</button>
+
+    <h3>Disabled</h3>
     <button class="btn" disabled>disabled button</button>
-    <button class="btn loading">button</button>
+
+    <h3>Loading</h3>
+    <button class="btn loading">
+      button
+      <div class="loader"></div>
+    </button>
     <button class="btn btn-primary loading">
       primary button
       <div class="loader"></div>
@@ -159,14 +171,6 @@
       <p>Send me emails with news and tips</p>
     </label>
 
-    <label class="switch-container">
-      <div class="form-switch">
-        <input type="checkbox">
-        <i class="form-icon"></i>
-      </div>
-      <p>Send me emails with news and tips</p>
-    </label>
-
     <h3>form-inline</h3>
     <div class="form-group">
       <label class="form-radio form-inline">
@@ -176,43 +180,31 @@
         <input type="radio" name="gender"><i class="form-icon"></i> Female
       </label>
     </div>
-    <p>Send me emails with news and tips</p>
     </label>
-    <h3>form-inline</h3>
-    <div class="form-group">
-      <label class="form-radio form-inline">
-        <input type="radio" name="gender" checked=""><i class="form-icon"></i> Male
-      </label>
-      <label class="form-radio form-inline">
-        <input type="radio" name="gender"><i class="form-icon"></i> Female
-      </label>
-    </div>
     <h3>Form Icons</h3>
     <label class="has-icon-left">
       <input type="text" class="form-input" placeholder="Name">
       <i class="form-icon icon icon-file-check"></i>
     </label>
-
-    <hr>
-
-    <h3>Icons</h3>
-    <span class="icon-addressbook"></span>
-
-    <form>
-      <!-- form validation class: is-success -->
-      <div class="form-group">
-        <label class="form-label" for="input-example-1">Name</label>
-        <input class="form-input is-success" type="text" id="input-example-1" placeholder="PASSWORD">
-        <p class="form-input-hint">The name is valid.</p>
-    </form>
-
+    <h3>Form validation</h3>
+    <!-- form validation class: is-success -->
+    <div class="form-group">
+      <label class="form-label" for="input-example-1">Name</label>
+      <input class="form-input is-success" type="text" id="input-example-1" placeholder="PASSWORD">
+      <p class="form-input-hint">The name is valid.</p>
+    </div>
+  
+    <h3>Form group</h3>
     <div class="input-group">
       <span class="input-group-addon">slack.com/</span>
       <input type="text" class="form-input" placeholder="sitename">
       <button class="btn btn-primary input-group-btn">Submit</button>
     </div>
 
-  </div>
+    <hr>
+
+    <h3>Icons</h3>
+    <span class="icon-addressbook"></span>
 
   </div>
 
