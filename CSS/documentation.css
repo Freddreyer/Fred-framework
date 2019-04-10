@@ -1,15 +1,24 @@
 h1 {
-    font-size: 30px;
-    border: solid 2px #000;
-    padding: 10px 15px;
-    display: inline-block;
+	display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+}
+
+h1:after {
+	content: "Fred Framework";
+	position: absolute; left: 42px; top: 2px;
+    color: rgba(255,0,0,0.5);   
+    white-space: nowrap;
 }
 
 h1 img {
-    border: solid 2px #000;
-    vertical-align: top;
+    vertical-align: middle;
     transition: all linear 10s;
     border-radius: 100%;
+    border: rgba(0,0,255,0.5);
+    box-shadow: 5px 5px 0 rgba(255,0,0,0.5);
 }
 
 h1:hover img {
