@@ -3,9 +3,14 @@
     background-color: rgb(199, 196, 196);
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 70px;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgb(177, 175, 175);
+    margin-top: 20px;
+}
+
+ul.navbar-section {
+    display: flex;
 }
 
 .navbar-section a {
@@ -16,6 +21,10 @@
 
 .navbar-section a:hover {
     color: #000;
+}
+
+.navbar-section a {
+    text-decoration: none;
 }
 
 .navbar-center {
