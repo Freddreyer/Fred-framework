@@ -30,3 +30,7 @@ ul.navbar-section {
 .navbar-center {
     line-height: 0;
 }
+
+.navbar img {
+    width: 15em;
+}
