@@ -14,11 +14,11 @@ h1:after {
 }
 
 h1 img {
-    vertical-align: middle;
-    transition: all linear 10s;
+    vertical-align: 0px;
+    transition: transform linear 10s;
     border-radius: 100%;
-    border: rgba(0,0,255,0.5);
-    box-shadow: 5px 5px 0 rgba(255,0,0,0.5);
+    border: solid 2px rgba(0,0,255,0.5);
+    box-shadow: 2px 2px 0 rgba(255,0,0,0.5);
 }
 
 h1:hover img {
