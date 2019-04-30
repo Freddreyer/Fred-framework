@@ -4,66 +4,67 @@
 
 .columns {
   display: flex;
-  align-items: center;
-
 }
 
-.column.col-12 {
-  width: 100%;
+.column {
+  margin: 16px 8px;
 
-}
+  &.col-12 {
+    width: 100%;
+  }
 
-.column.col-11 {
-  width: calc((11 / 12) * 100%);
+  &.col-11 {
+    width: calc((11 / 12) * 100%);
 
-}
+  }
 
-.column.col-10 {
-  width: calc((10 / 12) * 100%);
+  &.col-10 {
+    width: calc((10 / 12) * 100%);
 
-}
+  }
 
-.column.col-9 {
-  width: calc((9 / 12) * 100%);
+  &.col-9 {
+    width: calc((9 / 12) * 100%);
 
-}
+  }
 
-.column.col-8 {
-  width: calc((8 / 12) * 100%);
+  &.col-8 {
+    width: calc((8 / 12) * 100%);
 
-}
+  }
 
-.column.col-7 {
-  width: calc((7 / 12) * 100%);
+  &.col-7 {
+    width: calc((7 / 12) * 100%);
 
-}
+  }
 
-.column.col-6 {
-  width: calc((6 / 12) * 100%);
+  &.col-6 {
+    width: calc((6 / 12) * 100%);
 
-}
+  }
 
-.column.col-5 {
-  width: calc((5 / 12) * 100%);
+  &.col-5 {
+    width: calc((5 / 12) * 100%);
 
-}
+  }
 
-.column.col-4 {
-  width: calc((4 / 12) * 100%);
+  &.col-4 {
+    width: calc((4 / 12) * 100%);
 
-}
+  }
 
-.column.col-3 {
-  width: 25%;
+  &.col-3 {
+    width: 25%;
 
-}
+  }
 
-.column.col-2 {
-  width: calc((2 / 12) * 100%);
+  &.col-2 {
+    width: calc((2 / 12) * 100%);
 
-}
+  }
 
-.column.col-1 {
-  width: calc((1 / 12) * 100%);
+  &.col-1 {
+    width: calc((1 / 12) * 100%);
 
+  }
 }

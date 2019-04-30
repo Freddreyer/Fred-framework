@@ -52,7 +52,7 @@
 
 /*SWITCH*/
 
-.switch-container {
+.form-switch-container {
     display: flex;
     align-items: center;
 }
@@ -81,7 +81,6 @@
     transition: all linear 0.3s;
     border-radius: 25px;
 }
-
 
 .form-switch input[type="checkbox"]:checked+.form-icon:before {
     margin-left: 20px;
